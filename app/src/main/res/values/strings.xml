@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Phone Number Fix</string>
+    <string name="current_number_x">Current Number: $1%s</string>
+    <string name="current_number_unknown">Current Number: Unknown</string>
+    <string name="current_number_unavailable_no_permission">Current Number: Unavailable. Please grant permission to read pone state.</string>
+    <string name="save_number">Save Number</string>
+    <string name="new_number">New number…</string>
+
+    <string name="like_app_click_to_donate_x">Like the app? Tap to donate %1$s.</string>
+    <string name="saved_successfully">Saved Successfully!</string>
+    <string name="alert_reboot_required_title">Reboot Required</string>
+    <string name="alert_reboot_required_message">The number has been stored to the internal storage, but you must reboot to apply it to the SIM. Before you reboot ensure the module is enabled in Xposed.</string>
+    <string name="ok">OK</string>
+    <string name="check_xposed">Check Xposed</string>
+    <string name="xposed_installer_isnt_installed">Xposed Installer isn\'t Installed!</string>
+    <string name="unable_to_save">Unable to save.</string>
+</resources>
