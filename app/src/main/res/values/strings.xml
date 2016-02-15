@@ -14,4 +14,5 @@
     <string name="check_xposed">Check Xposed</string>
     <string name="xposed_installer_isnt_installed">Xposed Installer isn\'t Installed!</string>
     <string name="unable_to_save">Unable to save.</string>
+    <string name="invalid_number_not_saving">Invalid Number! Not Saving.</string>
 </resources>

@@ -19,6 +19,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.i18n.phonenumbers.NumberParseException;
+import com.google.i18n.phonenumbers.PhoneNumberUtil;
+import com.google.i18n.phonenumbers.Phonenumber;
+
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Context context;
@@ -30,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView oldNumber;
     EditText newNumber;
     Button saveNumber;
+
+    PhoneNumberUtil phoneUtil;
 
     boolean permissionsChecked = false;
 
@@ -52,6 +60,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         newNumber.setText(prefs.getString("newNumber", ""));
 
         telephonyManager = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
+
+        phoneUtil = PhoneNumberUtil.getInstance();
 
         updateCurrentNumber();
     }
@@ -104,6 +114,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnSaveNumber:
+
+                Phonenumber.PhoneNumber phoneNumber;
+
+                try {
+                    phoneNumber = phoneUtil.parse(newNumber.getText().toString(), Locale.getDefault().getCountry());
+                } catch (NumberParseException e) {
+                    Toast.makeText(this, R.string.invalid_number_not_saving, Toast.LENGTH_SHORT).show();
+
+                    return;
+                }
+
+                if (!phoneUtil.isValidNumberForRegion(phoneNumber, Locale.getDefault().getCountry())) {
+                    Toast.makeText(this, R.string.invalid_number_not_saving, Toast.LENGTH_SHORT).show();
+
+                    return;
+                }
+
 
                 if (prefs.edit().putString("newNumber", newNumber.getText().toString()).commit()) {
                     Toast.makeText(context, R.string.saved_successfully, Toast.LENGTH_SHORT).show();
