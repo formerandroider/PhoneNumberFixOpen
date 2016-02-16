@@ -6,7 +6,6 @@
     <string name="save_number">Save Number</string>
     <string name="new_number">New number…</string>
 
-    <string name="like_app_click_to_donate_x">Like the app? Tap to donate %1$s.</string>
     <string name="saved_successfully">Saved Successfully!</string>
     <string name="alert_reboot_required_title">Reboot Required</string>
     <string name="alert_reboot_required_message">The number has been stored to the internal storage, but you must reboot to apply it to the SIM. Before you reboot ensure the module is enabled in Xposed.</string>

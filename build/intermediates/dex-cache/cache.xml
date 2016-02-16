@@ -2,39 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFix/app/lib/XposedBridgeApi-20150213.jar"
+        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1_b7bfec9b881cb15292e467b2915bb3c8d4476e6b.jar" />
+    </item>
+    <item
+        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/lib/XposedBridgeApi-20150213.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="7c15b5f3cd3bd23c20465c8971b0b78a8ee69108">
-        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFix/app/build/intermediates/pre-dexed/release/XposedBridgeApi-20150213_42d876073c1e04b75077de6b13938699c7f6b755.jar" />
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/XposedBridgeApi-20150213_afce212a035ed98e763ffeea2c8f4d62707c30b8.jar" />
     </item>
     <item
-        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFix/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFix/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.1.1_df984aaf548e06404d8bbedcd421507599ec9a1a.jar" />
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.1.1_8695a67323611ff7589eb510e46e94b11a987a0d.jar" />
     </item>
     <item
-        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFix/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/libs/libphonenumber-7.2.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="22a97009fd95d695e7eca930565bd3f261d4c6a3">
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/libphonenumber-7.2.5_a641662f5bb5106cb5897643c61df7c34156696b.jar" />
+    </item>
+    <item
+        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFix/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.1.1_f9915d92b1620054edf59146f52105db946a5472.jar" />
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.1.1_6f2b8bff37102ad1bcadab2ef8e74cf645180465.jar" />
     </item>
     <item
         jar="/Users/liam/Android_SDK/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFix/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1_318242f4ed64ab901cf1dbe2a12cd1d1f1e8d3d6.jar" />
-    </item>
-    <item
-        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFix/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFix/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1_6084da6887fa8dc20ed7e1cffc26a1a5e20db2a4.jar" />
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1_318242f4ed64ab901cf1dbe2a12cd1d1f1e8d3d6.jar" />
     </item>
 
 </items>
