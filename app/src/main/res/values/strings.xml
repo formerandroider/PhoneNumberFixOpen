@@ -14,4 +14,7 @@
     <string name="xposed_installer_isnt_installed">Xposed Installer isn\'t Installed!</string>
     <string name="unable_to_save">Unable to save.</string>
     <string name="invalid_number_not_saving">Invalid Number! Not Saving.</string>
+    <string name="mobile_number_set">Mobile Number Set</string>
+    <string name="mobile_number_successfully_changed">The mobile number was successfully changed.</string>
+    <string name="rate_app">Rate App</string>
 </resources>

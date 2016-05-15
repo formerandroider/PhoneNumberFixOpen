@@ -2,14 +2,14 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.liam_w.phonenumberfix"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 201602161
-        versionName "1.0.3.1"
+        versionCode 201605150
+        versionName "1.0.4"
         resConfig "en"
     }
     buildTypes {
@@ -23,6 +23,7 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile files('lib/XposedBridgeApi-20150213.jar')
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    provided 'de.robv.android.xposed:api:82'
+    provided 'de.robv.android.xposed:api:82:sources'
 }

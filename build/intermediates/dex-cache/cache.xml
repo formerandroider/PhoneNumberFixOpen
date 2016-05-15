@@ -2,39 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/Users/liam/Android_SDK/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1_318242f4ed64ab901cf1dbe2a12cd1d1f1e8d3d6.jar" />
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-23.3.0_07ced0111ff587429335a0e09cb230e3a7921052.jar" />
     </item>
     <item
-        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.1.1_6f2b8bff37102ad1bcadab2ef8e74cf645180465.jar" />
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.3.0_7779ddef7a1f0e50bd920468f43c4a7863862dbd.jar" />
     </item>
     <item
-        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/lib/XposedBridgeApi-20150213.jar"
+        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="7c15b5f3cd3bd23c20465c8971b0b78a8ee69108">
-        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/XposedBridgeApi-20150213_afce212a035ed98e763ffeea2c8f4d62707c30b8.jar" />
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/internal_impl-23.3.0_ee8f77468d7c918eb527f22fea9f5bd7d7f7685c.jar" />
     </item>
     <item
-        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jar="/Users/liam/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.1.1_8695a67323611ff7589eb510e46e94b11a987a0d.jar" />
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/support-annotations-23.3.0_8e73e2a050adbda125c18a2869de4d7996d752c8.jar" />
     </item>
     <item
-        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1_b7bfec9b881cb15292e467b2915bb3c8d4476e6b.jar" />
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-23.3.0_b2d40d90080634cd731a0fcf5b455a00bcecb68b.jar" />
+    </item>
+    <item
+        jar="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/liam/AndroidStudioProjects/PhoneNumberFixOpen/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.3.0_ecc77aaf62e3fbc6737e435b16ca6bccb14ddddb.jar" />
     </item>
 
 </items>
